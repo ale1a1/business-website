@@ -1,0 +1,116 @@
+.text-shadow {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.headerBackground {
+  background: url(https://source.unsplash.com/GWe0dlVD9e0);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h1Header {
+  color: rgba(12, 49, 211, 0.911);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cssBold {
+  font-weight: bold;
+}
+
+.animate-text-right {
+  animation: animateText 1.5s ease;
+}
+.animate-text-right-3s {
+  animation: animateText 3s ease;
+}
+.animate-text-right-5s {
+  animation: animateText 5s ease;
+}
+
+@keyframes animateText {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.contactButton {
+  border: none;
+  margin-left: -5px;
+  background-color: white;
+}
+
+.contactButton:hover {
+  color: blue;
+}
+
+.contactPortfolio {
+  color: black;
+  text-decoration: none;
+}
+
+.contactPortfolio:hover {
+  color: blue;
+}
+
+/* importato da portfolio */
+
+@media only screen and (max-width: 600px) {
+  .cssSmallScreens {
+    font-weight: bold;
+  }
+  .cssSmallScreensSmallerFont {
+    font-size: 1.25rem;
+  }
+  .removeOnSmallScreens {
+    display: none;
+  }
+  .showOnSmallScreen {
+    display: list-item;
+  }
+  .marginSmallScreen {
+    margin-top: 6rem;
+  }
+  .marginSmallScreen2 {
+    margin-top: 2rem;
+  }
+  .sizeSmallScreen {
+    font-size: 0.85rem;
+  }
+  .portfolio {
+    width: 100vw;
+    height: 70vh;
+  }
+  .offCanvasInfoCard {
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .aboutAndContact {
+    width: 100vw;
+    height: 70vh;
+  }
+  .footerH2 {
+    font-size: 1.1rem !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: -4px;
+  }
+  .footerIcons {
+    padding-left: 30%;
+    padding-top: 0;
+  }
+  .footerIcon {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+  }
+  .emailField {
+    margin-top: 5%;
+  }
+}
