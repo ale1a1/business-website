@@ -25,13 +25,20 @@ const GetStartedModal = () => {
               ></button>
             </div>
             <div className="modal-body">
-              <form action="#">
+              <form
+                action="https://formsubmit.co/ale1a1@libero.it"
+                // action="https://formsubmit.co/ale1a184@gmail.com"
+                // action="5964a354b4e9ce4590aee2448b7b8c24"
+                method="POST"
+              >
                 <div className="mb-3">
                   <label className="col-form-label cssBold">Recipient:</label>
                   <input type="text" className="form-control" />
                 </div>
                 <div className="mb-3">
-                  <label className="col-form-label cssBold">First name:</label>
+                  <label className="col-form-label cssBold" required>
+                    First name:
+                  </label>
                   <input
                     type="text"
                     className="form-control"
@@ -40,7 +47,9 @@ const GetStartedModal = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label className="col-form-label cssBold">Last name:</label>
+                  <label className="col-form-label cssBold" required>
+                    Last name:
+                  </label>
                   <input
                     type="text"
                     className="form-control"
@@ -50,21 +59,26 @@ const GetStartedModal = () => {
                 </div>
                 <div className="mb-3">
                   <label className="col-form-label cssBold">Message:</label>
-                  <textarea type="text" className="form-control" required></textarea>
+                  <textarea
+                    type="text"
+                    className="form-control"
+                    required
+                  ></textarea>
+                </div>
+
+                <div className="modal-footer">
+                  <button
+                    className="btn btn-danger"
+                    type="button"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button className="btn btn-primary" type="submit">
+                    Send message
+                  </button>
                 </div>
               </form>
-            </div>
-            <div className="modal-footer">
-              <button
-                className="btn btn-danger"
-                type="button"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button className="btn btn-primary" type="submit">
-                Send message
-              </button>
             </div>
           </div>
         </div>
