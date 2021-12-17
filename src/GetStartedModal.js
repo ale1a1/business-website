@@ -33,7 +33,12 @@ const GetStartedModal = () => {
               >
                 <div className="mb-3">
                   <label className="col-form-label cssBold">Recipient:</label>
-                  <input type="text" className="form-control" />
+                  <input
+                    type="text"
+                    className="form-control"
+                    name="Recipient"
+                    required
+                  />
                 </div>
                 <div className="mb-3">
                   <label className="col-form-label cssBold" required>
@@ -42,6 +47,7 @@ const GetStartedModal = () => {
                   <input
                     type="text"
                     className="form-control"
+                    name="First name"
                     placeholder="Enter your first name"
                     required
                   />
@@ -53,6 +59,7 @@ const GetStartedModal = () => {
                   <input
                     type="text"
                     className="form-control"
+                    name="Last name"
                     placeholder="Enter your last name"
                     required
                   />
@@ -62,6 +69,7 @@ const GetStartedModal = () => {
                   <textarea
                     type="text"
                     className="form-control"
+                    name= "Message"
                     required
                   ></textarea>
                 </div>
