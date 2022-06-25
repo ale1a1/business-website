@@ -7,7 +7,7 @@ const Navigation = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-info fixed-top shadow">
         <div className="container-fluid">
           <a className="navbar-brand font-monospace" href="">
-            A.L.W. Media
+            Menyahrt Media
           </a>
           <button
             className="navbar-toggler"

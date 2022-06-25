@@ -64,8 +64,7 @@ const EmailOffCanvas = () => {
                 <textarea
                   type="text"
                   name="message"
-                  className="w-100"
-                  rows="8"
+                  className="w-100"                 
                   placeholder="Write a message"
                   required
                 ></textarea>

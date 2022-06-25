@@ -7,7 +7,7 @@ const Footer = () => {
       <footer id="Contact" class="bg-light pt-3">
         <div class="container">
           <h4 class="text-info text-decoration-undeline font-monospace mb-3">
-            A.L.W. Media
+            Menyahrt Media
           </h4>
           <small class="fw-lighter">Lorem ipsum dolor sit amet.</small>
           <p>
@@ -22,13 +22,13 @@ const Footer = () => {
 
               <ul class="lsit-group">
                 <li class="list-group-item">
-                  <i class="bi bi-house-door m-2 text-info"></i> Liverpool
+                  <i class="bi bi-house-door m-2 text-info"></i> Web Design City
                 </li>
                 <li class="list-group-item">
-                  <i class="bi bi-signpost-2 m-2 text-info"></i> Smithdown Road
+                  <i class="bi bi-signpost-2 m-2 text-info"></i> Web Design Road
                 </li>
                 <li class="list-group-item">
-                  <i class="bi bi-telephone m-2 text-info"></i> +447481184619
+                  <i class="bi bi-telephone m-2 text-info"></i> +448811228833458
                 </li>
                 <li class="list-group-item">
                   <button
@@ -39,13 +39,13 @@ const Footer = () => {
                     className="contactButton"
                   >
                     <i class="bi bi-envelope m-2 text-info"></i>
-                    ale1a184@gmail.com
+                    web-design@email.com
                   </button>
                 </li>
                 <li class="list-group-item">
-                  <a className= "contactPortfolio" href="https://portfolio-ale1a184.herokuapp.com/">
+                  <a className="contactPortfolio" href="">
                     <i class="bi bi-globe m-2 text-info"></i>
-                    A.L.W. media
+                    Menyahrt Media
                   </a>
                 </li>
               </ul>
@@ -56,10 +56,11 @@ const Footer = () => {
           <div class="row">
             <div class="col-sm-7">
               &copy; Copyright 2020
-              <span class="font-monospace"> A.L.W. Media</span> 
+              <span class="font-monospace"> Menyahrt Media. </span>
+              All rights reserved
             </div>
             <div class="col-sm-5">
-              Designed by <span class="font-monisoace">Alessandro Ladu</span>
+              Designed by <span class="font-monisoace">Nobert BM</span>
             </div>
           </div>
         </div>
