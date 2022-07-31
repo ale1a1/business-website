@@ -10,13 +10,13 @@ const About = () => {
           <div className="col-lg-6">
             <h4 className="font-monospace my-5">About Us!</h4>
             <h2 className="display-1">
-              Since 2008 A.L.W. Media grows Business
+              Since 2008 Menyahrt Media Media grows Business
             </h2>
           </div>
         </div>
         <div
           className="card border-0 my-3 text-white bg-info mx-auto"
-          style={{ "maxWidth": "100%" }}
+          style={{ maxWidth: "100%" }}
         >
           <div className="row g-0">
             <div className="col-md-6">
