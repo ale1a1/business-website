@@ -9,9 +9,21 @@
   background-repeat: no-repeat;
 }
 
-.h1Header {
-  color: rgba(12, 49, 211, 0.911);
+header .headerMainDiv {
+  position: relative !important;
+  top:5rem
+}
+
+header .title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(51, 92, 153, 0.247);
+}
+
+header .subtitle {  
+  background-color: rgba(51, 92, 153, 0.493);
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 1.7rem !important;
 }
 
 .cssBold {
