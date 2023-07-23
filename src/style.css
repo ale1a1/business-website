@@ -9,9 +9,16 @@
   background-repeat: no-repeat;
 }
 
-.h1Header {
-  color: rgba(12, 49, 211, 0.911);
+header h1 {
+  color: rgb(38, 116, 180);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  backdrop-filter: blur(2px);
+  /* Set the text fill color (inner color of the letters) */
+  -webkit-text-fill-color: rgb(38, 116, 180) ;
+  /* Set the text stroke color (border color of the letters) */
+  -webkit-text-stroke-color: whitesmoke;
+  /* Set the text stroke width (border width of the letters) */
+  -webkit-text-stroke-width: 1px;
 }
 
 .cssBold {
