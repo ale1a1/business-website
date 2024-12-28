@@ -1,4 +1,10 @@
 import React, { Fragment } from "react";
+import profile1 from './assets/jurica-koletic-7YVZYZeITc8-unsplash.jpg';
+import profile2 from './assets/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg';
+import profile3 from './assets/willian-souza-p5BoBF0XJUA-unsplash.jpg';
+import profile4 from './assets/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg';
+
+
 import "./style.css";
 
 const Team = () => {
@@ -17,7 +23,7 @@ const Team = () => {
           <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
             <div className="card shadow" style={{ width: "18rem" }}>
               <img
-                src="https://source.unsplash.com/7YVZYZeITc8"
+                src={[profile1]}
                 alt=""
                 className="card-img-top"
               />
@@ -30,7 +36,7 @@ const Team = () => {
           <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
             <div className="card shadow" style={{ width: "18rem" }}>
               <img
-                src="https://source.unsplash.com/u3WmDyKGsrY"
+                src={[profile2]}
                 alt=""
                 className="card-img-top"
               />
@@ -43,7 +49,7 @@ const Team = () => {
           <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
             <div className="card shadow" style={{ width: "18rem" }}>
               <img
-                src="https://source.unsplash.com/Qy4wpL2B4ac"
+                src={[profile3]}
                 alt=""
                 className="card-img-top"
               />
@@ -56,7 +62,7 @@ const Team = () => {
           <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
             <div className="card shadow" style={{ width: "18rem" }}>
               <img
-                src="https://source.unsplash.com/RGtSTDmmcCk"
+                src={[profile4]}
                 alt=""
                 className="card-img-top"
               />

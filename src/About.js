@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import AboutContentModal from "./AboutContentModal";
+import aboutImage from './assets/krakenimages-376KN_ISplE-unsplash.jpg';
 import "./style.css";
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
           <div className="row g-0">
             <div className="col-md-6">
               <img
-                src="https://source.unsplash.com/376KN_ISplE"
+                src={aboutImage}
                 alt="aboutimg"
                 className="card-img-top"
               />

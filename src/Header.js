@@ -14,7 +14,7 @@ const Header = () => {
             Trusted to help guide entrepreneurs make better financial decisions
           </h1>
           <button
-            className="btn btn-lg btn-info shadow mt-4 animate-text-right-5s cssBold ms-3"
+            className="btn btn-lg btn-info shadow mt-4 animate-text-right-5s cssBold ms-3 getOffer-btn"
             data-bs-toggle="modal"
             data-bs-target="#getOffer"
           >

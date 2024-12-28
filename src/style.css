@@ -3,7 +3,7 @@
 }
 
 .headerBackground {
-  background: url(https://unsplash.com/photos/oval-brown-wooden-conference-table-and-chairs-inside-conference-room-GWe0dlVD9e0);
+  background: url('./assets/benjamin-child-GWe0dlVD9e0-unsplash.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,6 +23,10 @@ header h1 {
 
 .cssBold {
   font-weight: bold;
+}
+
+.getOffer-btn {
+  border: 1px solid white !important;
 }
 
 .animate-text-right {
