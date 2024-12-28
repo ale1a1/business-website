@@ -25,6 +25,7 @@ const About = () => {
                 src={aboutImage}
                 alt="aboutimg"
                 className="card-img-top"
+                loading="lazy"
               />
             </div>
             <div className="col-md-6">

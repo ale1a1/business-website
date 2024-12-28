@@ -26,6 +26,7 @@ const Team = () => {
                 src={[profile1]}
                 alt=""
                 className="card-img-top"
+                loading="lazy"
               />
               <div className="card-body">
                 <h5 className="card-title">John Doe</h5>
@@ -39,6 +40,7 @@ const Team = () => {
                 src={[profile2]}
                 alt=""
                 className="card-img-top"
+                loading="lazy"
               />
               <div className="card-body">
                 <h5 className="card-title">John Doe</h5>
@@ -52,6 +54,7 @@ const Team = () => {
                 src={[profile3]}
                 alt=""
                 className="card-img-top"
+                loading="lazy"
               />
               <div className="card-body">
                 <h5 className="card-title">John Doe</h5>
@@ -65,6 +68,7 @@ const Team = () => {
                 src={[profile4]}
                 alt=""
                 className="card-img-top"
+                loading="lazy"
               />
               <div className="card-body">
                 <h5 className="card-title">John Doe</h5>
